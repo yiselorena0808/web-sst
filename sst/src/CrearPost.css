@@ -1,51 +1,59 @@
 .create-post-form {
-    display: flex;
-    margin-top: 80px;
-    margin-left: 500px;
-    flex-direction: column;
-    background-color: #f8eded;
-    padding: 16px;
-    border-radius: 12px;
-    width: 30%;
-  }
-  
-  .create-title {
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 16px;
-  }
-  
-  .create-button {
-    background: none;
-    border: 1px solid black;
-    padding: 0.5rem;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  .create-button:hover {
-    background-color: #ddd;
-  }
-  
-  .upload-image {
-    background-color: #b3b3b3;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    height: 8rem;
-    margin-bottom: 16px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .publish-button {
-    background-color: #99f6e4;
-    padding: 0.5rem;
-    border-radius: 8px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color: #f4f4f4; /* Fondo gris claro */
+  padding: 30px;
+  border-radius: 15px; /* Bordes redondeados */
+  width: 90%;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.create-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.create-button,
+.publish-button {
+  background-color: #707070; /* Color azul */
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.create-button:hover,
+.publish-button:hover {
+  background-color: #707070; /* Color azul más oscuro al hacer hover */
+}
+
+.upload-image {
+  background-color: #f0f0f0; /* Fondo gris claro */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px dashed #ccc; /* Borde punteado */
+}
+
+.upload-image span {
+  color: #555;
+}
+
+.publish-button {
+  background-color: #99f6e4; /* Color verde para el botón de publicar */
+}
+
+.publish-button:hover {
+  background-color: #99f6e4; /* Color verde más oscuro al hacer hover */
+}

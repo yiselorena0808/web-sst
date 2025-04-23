@@ -1,46 +1,78 @@
-.blog-post {
-    display: flex;
-    margin-top: 80px;
-    margin-left: 300px;
-    flex-direction: column;
-    background-color: #e5e7eb;
-    padding: 16px;
-    border-radius: 12px;
-    width: 65%;
-  }
-  
-  .post-title, 
-  .post-description {
-    border: 1px solid #ccc;
-    border-radius: 9999px;
-    padding: 8px 16px;
-    margin-bottom: 16px;
-  }
-  
-  .post-image {
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    height: 16rem;
-    margin-bottom: 16px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .post-icons {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 16px;
-  }
-  
-  .comments-button {
-    border: 1px solid #ccc;
-    border-radius: 9999px;
-    padding: 8px 16px;
-  }
-  .blog{
-    margin-left: 400px;
-    margin-top: 300px;
-  }
+/* Contenedor principal de las publicaciones */
+.blog {
+  display: flex;
+  flex-direction: column;
+  margin-left: 450px;
+  gap: 20px; /* Espaciado entre cada publicación */
+  margin-top: 100px; /* Para separarlo del borde superior */
+}
+
+/* Estilo para cada contenedor de publicación */
+.contenido {
+  background-color: #fff; /* Fondo blanco para el contenedor */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 80px; /* Relleno dentro de cada publicación */
+  box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  max-width: 900px; /* Ancho máximo para cada publicación */
+  margin-left: auto;
+  margin-right: auto; /* Centra cada publicación */
+}
+
+/* Estilo para el título */
+.titulo {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para la descripción */
+.descripcion {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para el área de la imagen */
+.image {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Estilo para los iconos */
+.post-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el botón de comentarios */
+.comentarios {
+  background-color: #99f6e4; /* Color verde */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comentarios:hover {
+  background-color: #76e1d7; /* Color más oscuro cuando se pasa el mouse */
+}
+/* Estilo para el título h1 */
+.h1 {
+  align-items: center;
+  font-size: 30px; /* Tamaño de la fuente, puedes ajustarlo */
+  color: #333; /* Color del texto */
+  margin-bottom: 50px; /* Espacio debajo del título */
+}
