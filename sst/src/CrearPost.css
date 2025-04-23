@@ -1,0 +1,49 @@
+.create-post-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #b3b3b3;
+    padding: 16px;
+    border-radius: 12px;
+    width: 30%;
+  }
+  
+  .create-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .create-button {
+    background: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: #ddd;
+  }
+  
+  .upload-image {
+    background-color: #b3b3b3;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    height: 8rem;
+    margin-bottom: 16px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .publish-button {
+    background-color: #99f6e4;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

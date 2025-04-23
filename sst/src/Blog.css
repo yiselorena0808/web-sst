@@ -1,0 +1,41 @@
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 16px;
+    border-radius: 12px;
+    width: 65%;
+  }
+  
+  .post-title, 
+  .post-description {
+    border: 1px solid #ccc;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+  }
+  
+  .post-image {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    height: 16rem;
+    margin-bottom: 16px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .post-icons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .comments-button {
+    border: 1px solid #ccc;
+    border-radius: 9999px;
+    padding: 8px 16px;
+  }
+  
