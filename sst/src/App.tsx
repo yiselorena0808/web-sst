@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import CrearPost from './CrearPost'
 import Blog from './Blog'
-import Header from './Header'
+import Header from './Topbar'
 import Sidebar from './Sidebar'
 import './App.css'
 

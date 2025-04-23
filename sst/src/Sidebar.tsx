@@ -1,23 +1,31 @@
-import React from "react";
-import "./Sidebar.css";
+import React from 'react';
+import './Sidebar.css';
 
 const Sidebar: React.FC = () => {
-  return (
-    <aside className="sidebar">
-      <div className="sidebar-top">
-        <button className="sidebar-button">Home</button>
-        <button className="sidebar-button">Lista de Chequeo</button>
-        <button className="sidebar-button">Reportes</button>
-        <button className="sidebar-button">Gestión EPP</button>
-        <button className="sidebar-button">Actividades Lúdicas</button>
-        <button className="sidebar-button">Blog</button>
-      </div>
-      <div className="sidebar-bottom">
-        <button className="sidebar-button">Más Servicios</button>
-        <button className="sidebar-button">Salir</button>
-      </div>
-    </aside>
-  );
+    return (
+        <div className="sidebar">
+            <div className="sidebar-top">
+                <h2>Menú</h2>
+            </div>
+            <div className="sidebar-content">
+                <ul>
+                    <li><a href="#">Gestion EPP</a></li>
+                    <li><a href="#">Actividades Ludicas</a></li>
+                    <li><a href="#">Reportes</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Asesoramiento</a></li>
+                    <div className='LO'>
+                        <p>
+                        <li><a href="#">Mas Servicios</a></li>
+                        <li><a href="#">Salir</a></li>
+                        </p>
+                    </div>
+                
+                </ul>
+            </div>
+        </div>
+    );
 };
 
 export default Sidebar;
+

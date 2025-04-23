@@ -1,7 +1,9 @@
 .create-post-form {
     display: flex;
+    margin-top: 80px;
+    margin-left: 500px;
     flex-direction: column;
-    background-color: #b3b3b3;
+    background-color: #f8eded;
     padding: 16px;
     border-radius: 12px;
     width: 30%;

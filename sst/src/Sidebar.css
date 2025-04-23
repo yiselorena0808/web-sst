@@ -1,29 +1,36 @@
 .sidebar {
-    width: 16rem;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-  }
-  
-  .sidebar-top, .sidebar-bottom {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .sidebar-button {
-    background: none;
-    border: 1px solid white;
-    color: white;
-    padding: 0.5rem;
-    cursor: pointer;
-    border-radius: 0.5rem;
-  }
-  
-  .sidebar-button:hover {
-    background-color: #333;
-  }
-  
+  width: 10%; /* Cambia el ancho a 100% */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed; /* Fija el sidebar en la pantalla */
+  top: 60px; /* Ajusta la posición según la altura de la barra superior */
+  left: 0;
+  bottom: 0;
+}
+
+.sidebar-top {
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-content li {
+  margin-bottom: 10px;
+}
+
+.sidebar-content a {
+  color: #fff;
+  text-decoration: none;
+}
+.LO{
+  margin-top: 450px;
+}

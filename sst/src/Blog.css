@@ -1,5 +1,7 @@
 .blog-post {
     display: flex;
+    margin-top: 80px;
+    margin-left: 300px;
     flex-direction: column;
     background-color: #e5e7eb;
     padding: 16px;
@@ -38,4 +40,7 @@
     border-radius: 9999px;
     padding: 8px 16px;
   }
-  
+  .blog{
+    margin-left: 400px;
+    margin-top: 300px;
+  }
