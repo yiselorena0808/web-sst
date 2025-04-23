@@ -4,7 +4,7 @@ import './Topbar.css';
 const Topbar: React.FC = () => {
     return (
         <div className="topbar">
-            <h2>Barra superior</h2>
+            <h2>SST</h2>
         </div>
     );
 };

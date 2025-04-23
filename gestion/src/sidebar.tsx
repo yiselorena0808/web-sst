@@ -14,8 +14,13 @@ const Sidebar: React.FC = () => {
                     <li><a href="#">Reportes</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Asesoramiento</a></li>
-                    <li><a href="#">Mas Servicios</a></li>
-                    <li><a href="#">Salir</a></li>
+                    <div className='LO'>
+                        <p>
+                        <li><a href="#">Mas Servicios</a></li>
+                        <li><a href="#">Salir</a></li>
+                        </p>
+                    </div>
+                
                 </ul>
             </div>
         </div>
